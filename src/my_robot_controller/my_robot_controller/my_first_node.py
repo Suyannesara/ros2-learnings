@@ -7,7 +7,12 @@ class MyNode(Node):
     def __init__(self):
         # Define node name
         super().__init__("first_node")
-        self.get_logger().info("HELLO FROM ROS2")
+        self.counter_ = 0
+        self.create_timer(1.0, self.timer_callback)
+
+    def timer_callback(self):
+        self.get_logger().info("HELLO " + str(self.counter_))
+        self.counter_ += 1
 
 def main(args=None):
     # init ROS2 communications
