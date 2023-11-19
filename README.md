@@ -30,7 +30,6 @@ $ ros2 pkg create your_package_name --dependencies dependency_name
 ```bash
 $ cd workspace_folder (root)
 $ colcon build
-$ source ./install/setup.bash
 ```
 
 ### 3. Node Setup
