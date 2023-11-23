@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>tutorial</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="suyannesara17@gmail.com">suyanne</maintainer>
+  <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>controller_manager</depend>
+  <depend>diff_drive_controller</depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_ros_control</depend>
+  <depend>joint_state_controller</depend>
+  <depend>position_controllers</depend>
+  <depend>velocity_controllers</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rqt_robot_steering</depend>
+  <depend>rviz</depend>
+  <depend>xacro</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
