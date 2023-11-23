@@ -1,5 +1,5 @@
 *vscode
 *.env
 build
-install
+*install
 log
