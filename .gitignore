@@ -1,5 +1,8 @@
 *vscode
 *.env
+
+log
 build
 *install
-log
+
+robotics_path*
