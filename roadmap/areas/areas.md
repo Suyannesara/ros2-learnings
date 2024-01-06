@@ -23,7 +23,6 @@ markmap:
 - Jira
 - GIT and GIT-Flow
 - Control laws knowledge
-- Fixed-wing and rotary-wing flight dynamics knowledge
 - C++ programming language
 
 ### AI and Computer Vision Development
